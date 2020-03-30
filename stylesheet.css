@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clr{
+    clear: both;
+}
+h1{
+    font-size: 40px;
+line-height: 40px;
+}
+h3{
+    font-size: 25px;
+    padding: 20px 0;
+}
+.page1{
+    background: url('../img/backg2.jpg') rgba(0, 0,0,0.7) no-repeat;
+background-size:cover ;
+height: 100vh;
+/* background: rgba(0, 0,0,0.7); */
+    text-align: center;
+    line-height: 40px;
+}
+.page1 .header{
+    padding-top: 20px;
+}
+
+
+.page1 .header img{
+     width:120px;
+     float: left;
+
+}
+.page1 .header button{
+    float: right;
+    margin: 20px;
+    padding: 5px 25px;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+    border: none;
+    font-size: 20px;
+}
+.page1 .center{
+    /* color: white; */
+    /* display: block; */
+   padding: 250px 100px; */
+   /* /* margin-left: 100px; */
+align-items: center;
+line-height: 30px;
+
+
+}
+button{
+    cursor: pointer;
+
+
+}
+.page1 .center button{
+    background-color: red;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 5px;
+    /* margin-left: 150px; */
+    
+}
+
+.page1 .center button:hover{
+    background-color: red;
+    opacity: 0.8;
+    font-weight: bold;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 5px;
+    /* cursor: pointer; */
+}
+.gap{
+    height: 10px;
+    background-color: grey;
+}
+button{
+    background-color: black;
+    border: white;
+    padding: 8px 30px;
+    border-radius: 5px;
+    color: white;
+    /* margin-left: 150px; */
+    
+}
+
+
+.page2 {
+    padding: 30px 0 0 30px;
+    /* margin-bottom: 400px; */
+  background-color: black;
+    display: flex;
+    text-align: center;
+    /* margin-top: 400px; */
+
+height: 60vh;}
+.page2 .content{
+    text-align: center;
+   /* position: relative; */
+   width: 50%;
+   color: white;
+   overflow: auto;
+   min-width: 300px;
+
+}
+
+.page2 img{
+    width:50%;
+    text-align: center;
+    height: 80%;
+    background: url('../img/tv2.gif') center center/cover;
+}
+.page2 button{
+    border: blanchedalmond 2px solid;
+    padding: 12px 40px;
+}
+h1,h3{
+    font-family: 'Gotu', sans-serif;
+}
+.page3{
+    display: flex;
+    background: black;
+    
+}
+.page3 h1,h3{
+    color: white;
+}
+.page3 .mobile{
+    width: 50%;
+
+}
+.page3 .mobile img{
+    width: 450px;
+    height: 400px;
+    margin-right: 50px;
+
+}
+.page3 .content{
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+    overflow: auto;
+    min-width: 300px;
+}
+.page3 .content button{
+    border: blanchedalmond 2px solid;
+    padding: 12px 40px;
+
+}
+.content{
+    line-height: 30px;
+    line-break: auto;
+}
+.page1 h3{ color: black;
+
+}
