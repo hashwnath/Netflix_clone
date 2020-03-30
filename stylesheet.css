@@ -16,7 +16,7 @@ h3{
     padding: 20px 0;
 }
 .page1{
-    background: url('../img/backg2.jpg') rgba(0, 0,0,0.7) no-repeat;
+    background: url('backg2.jpg') rgba(0, 0,0,0.7) no-repeat;
 background-size:cover ;
 height: 100vh;
 /* background: rgba(0, 0,0,0.7); */
@@ -114,7 +114,7 @@ height: 60vh;}
     width:50%;
     text-align: center;
     height: 80%;
-    background: url('../img/tv2.gif') center center/cover;
+    background: url('tv2.gif') center center/cover;
 }
 .page2 button{
     border: blanchedalmond 2px solid;
